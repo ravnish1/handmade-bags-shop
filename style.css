@@ -1,0 +1,139 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('andy-hermawan-uFdCDgnoNVI-unsplash.jpg'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333; /* Set text color to be visible against the background */
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+body{
+  background: url('andy-hermawan-uFdCDgnoNVI-unsplash.jpg');
+  font-family:verdana;
+  margin: 0;
+}
+.nav{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.007);  /* Set the transparency to 0.3 */
+overflow: hidden;
+
+}
+.nav a{
+  padding: 14px 16px;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+}
+.nav a:hover{
+background-color:rgba(0, 0, 0, 0.1);
+color: black;
+}
+.nav a.active{
+  background-color:#088;
+  color: white;
+}
+.nav{
+  width: 100%;
+  background-color: *;  /* Set the transparency to 0.3 */
+  overflow: hidden;
+  
+}
+.nav a{
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+}
+.nav a:hover{
+  background-color:#fff;
+  color: black;
+}
+.nav a.active{
+    background-color:#088;
+    color: white;
+}
+/* Add some styling for better visibility */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: url('andy-hermawan-uFdCDgnoNVI-unsplash.jpg') no-repeat center center fixed; /* Replace 'your-background-image.jpg' with your image file */
+background-size: cover;
+color: white; /* Set the default text color */
+}
+
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+article {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
